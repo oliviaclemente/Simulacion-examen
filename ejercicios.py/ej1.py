@@ -12,8 +12,9 @@ def minion_game(string):
     pal=string[:i]
     if vocal in "banana":
       k += string.count(pal)
+      print(k)
     else:
-      s += len(string)-i
+      s += string.count(pal)
   if k>s:
     print("Kevin:", k)
   elif k<s:
