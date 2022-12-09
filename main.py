@@ -9,5 +9,6 @@ def minion_game(string):
   k= 0
   for i in range(len(string)):
     if string[i] in "banana":
-      k += ÑEN
+      k += len(string)-i
+      
     
