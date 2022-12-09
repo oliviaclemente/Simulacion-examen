@@ -1,7 +1,7 @@
 #ejercicio 1
 #jugs=("BANANA") #consonates
 #jugk=("BANANA") #vocales
-palabra=("BANANA")
+#palabra=("BANANA")
 
 
 def minion_game(string):
@@ -9,4 +9,5 @@ def minion_game(string):
   k= 0
   for i in range(len(string)):
     if string[i] in "banana":
+      k += ÑEN
     
