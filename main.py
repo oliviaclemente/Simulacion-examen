@@ -17,4 +17,6 @@ def minion_game(string):
   elif k<s:
     print("Stuart:",s)
   else:
-    print()
+    print("Draw")
+
+if __name__ == '__main__':
