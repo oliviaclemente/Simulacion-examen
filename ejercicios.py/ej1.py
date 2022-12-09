@@ -8,7 +8,8 @@ def minion_game(string):
   s= 0
   k= 0
   vocal=["a","e", "i", "o", "u"]
-  for i in range(len(string)):
+  for i in range(0,len(string)):
+    palabra=string[:i]
     if string[i] in "banana":
       k += len(string)-i
     else:
