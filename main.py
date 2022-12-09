@@ -11,9 +11,10 @@ def minion_game(string):
   while(letra != string and pos<len(palabra)-1):
     pos= pos +1
     letra=palabra[pos]
-  if letra
+  if letra != string:
+    return -1
+  else:
+    return pos
+print(minion_game(string))
     
-
-
-  
 if __name__ == '__main__':
