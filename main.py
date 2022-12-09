@@ -1,20 +1,12 @@
 #ejercicio 1
-jugs=("BANANA") #consonates
-jugk=("BANANA") #vocales
+#jugs=("BANANA") #consonates
+#jugk=("BANANA") #vocales
 palabra=("BANANA")
 
 
 def minion_game(string):
-  consonantes=""
-  vocales= ""
-  pos=0
-  while(letra != string and pos<len(palabra)-1):
-    pos= pos +1
-    letra=palabra[pos]
-  if letra != string:
-    return -1
-  else:
-    return pos
-print(minion_game(string))
+  s= 0
+  k= 0
+  for i in range(len(string)):
+    if string[i] in "banana":
     
-if __name__ == '__main__':
