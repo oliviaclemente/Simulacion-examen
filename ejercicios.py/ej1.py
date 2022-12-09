@@ -15,13 +15,17 @@ def minion_game(string):
       print(k)
     else:
       s += string.count(pal)
+  print(k)
+
   if k>s:
-    print("Kevin:", k)
+    return("Kevin:", k)
   elif k<s:
-    print("Stuart:",s)
+    return("Stuart:",s)
   else:
-    print("Draw")
+    return("Draw")
+
+print(minion_game("banan"))
 
 if __name__ == '__main__':
-  string = input()
-  minion_game(string)
+  s1 = input()
+  minion_game(s1)
