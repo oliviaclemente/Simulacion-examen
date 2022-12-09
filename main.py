@@ -20,3 +20,5 @@ def minion_game(string):
     print("Draw")
 
 if __name__ == '__main__':
+  string = input()
+  minion_game
