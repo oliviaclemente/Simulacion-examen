@@ -10,5 +10,7 @@ def minion_game(string):
   for i in range(len(string)):
     if string[i] in "banana":
       k += len(string)-i
-      
+    else:
+      s += len(string)-i
+    
     
