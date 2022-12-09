@@ -9,9 +9,9 @@ def minion_game(string):
   k= 0
   vocal=["a","e", "i", "o", "u"]
   for i in range(0,len(string)):
-    palabra=string[:i]
-    if string[i] in "banana":
-      k += len(string)-i
+    pal=string[:i]
+    if vocal in "banana":
+      k += string.count(pal)
     else:
       s += len(string)-i
   if k>s:
