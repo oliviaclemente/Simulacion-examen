@@ -2,4 +2,3 @@
 jugs=("BANANA") #consonates
 jugk=("BANANA") #vocales
 
-def minion_
