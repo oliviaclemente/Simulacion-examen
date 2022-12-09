@@ -8,7 +8,10 @@ def minion_game(string):
   consonantes=""
   vocales= ""
   pos=0
-  while(letra != string and pos<len(palabra)-1)
+  while(letra != string and pos<len(palabra)-1):
+    pos= pos +1
+    letra=palabra[pos]
+  if letra
     
 
 
