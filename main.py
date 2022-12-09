@@ -12,5 +12,6 @@ def minion_game(string):
       k += len(string)-i
     else:
       s += len(string)-i
-    
+  if k>s:
+    print("Kevin:", k)
     
